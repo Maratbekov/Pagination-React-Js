@@ -1,0 +1,71 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+  
+    background: #111;
+    border-radius: 10px;
+  }
+  .groupImage {
+    position: relative;
+  }
+  .groupImage img {
+    width: 200px;
+    height: 200px;
+  
+    object-fit: cover;
+  }
+  .text {
+    text-align: left;
+    color: #fff;
+  
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-shadow: 2px 1px #111;
+  }
+  .text h3,
+  .text p {
+    margin: 0;
+  }
+  .text p {
+    margin-top: 10px;
+  }
+  .btn {
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    background: turquoise;
+    color: #111;
+    font-weight: bolder;
+  
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .btnPaginate {
+    margin: 10px 4px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 8px;
+    background: #ccc;
+    border: 2px solid transparent;
+    padding: 5px 10px;
+  }
+  .btnPaginate.active {
+    background: blue;
+    border: 2px solid turquoise;
+    color: #fff;
+  }
